@@ -1,0 +1,18 @@
+POST http://localhost:3000/users
+Body (JSON):
+{
+  "nombre": "Juan",
+  "email": "juan@email.com"
+}
+
+GET http://localhost:3000/users
+
+GET http://localhost:3000/users/1
+
+PUT http://localhost:3000/users/1
+Body (JSON):
+{
+  "nombre": "Juan Actualizado"
+}
+
+DELETE http://localhost:3000/users/1
